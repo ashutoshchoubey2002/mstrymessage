@@ -34,3 +34,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build artifacts
+.next/
+
+# Ignore environment variables
+.env*
+
+# Ignore test files
+**/__tests__/**
